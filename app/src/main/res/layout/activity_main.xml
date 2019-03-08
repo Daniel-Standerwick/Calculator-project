@@ -18,125 +18,144 @@
     <TextView
         android:id="@+id/output"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_column="3"
+        android:layout_height="50dp"
         android:layout_row="0"
-        android:text="@string/Zero" />
+        android:layout_column="3"
+        android:text="@string/Zero"
+        android:textSize="35dp" />
 
     <Button
         android:id="@+id/Bclear"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
+        android:textSize="35dp"
         android:text="@string/clear" />
 
     <Button
         android:id="@+id/BfullClear"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
+        android:textSize="35dp"
         android:text="@string/fullClear" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/BplussMinus"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/plusMinus" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/Bdevide"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/divide" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/B7"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/seven" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/B8"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/eight" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/B9"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/nine" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/BPluss"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/plus" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/B4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/four" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/B5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/five" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/B6"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/six" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/BMinus"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/subtract" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/B1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/one" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/B2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/two" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/B3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/three" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/times"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/times" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/B0"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/Zero" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/BPeriod"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/period" />
 
     <Button
+        android:textSize="35dp"
         android:id="@+id/BEquals"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="182dp"
+        android:layout_height="100dp"
         android:layout_columnSpan="2"
-        android:layout_rowSpan="2"
         android:text="@string/equal" />
 
 </GridLayout>
